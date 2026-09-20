@@ -1,7 +1,11 @@
 {
-  "name":"anonymous-fishbowl",
-  "version":"1.0.0",
-  "private":true,
-  "scripts":{"start":"node server.js"},
-  "dependencies":{"express":"^4.21.2","ws":"^8.18.0"}
+  "name": "anonymous-fishbowl",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo No build required"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
 }
